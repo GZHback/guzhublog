@@ -3,7 +3,6 @@ import { getAuthToken } from '@/lib/auth'
 import { GITHUB_CONFIG } from '@/consts'
 import { toast } from 'sonner'
 
-
 export type AboutData = {
 	title: string
 	description: string
