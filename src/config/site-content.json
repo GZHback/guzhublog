@@ -1,8 +1,8 @@
 {
 	"meta": {
-		"title": "YYsuni",
-		"description": "YYsuni 的个人博客，记录前端开发、探索、笔记。前端 UI 更新代码仓库。",
-		"username": "Suni"
+		"title": "Taxi的小站",
+		"description": "个人博客，记录前端开发、探索、笔记。前端 UI 更新代码仓库。",
+		"username": "GZHback"
 	},
 	"theme": {
 		"colorBrand": "#2fcbe7",
@@ -45,23 +45,30 @@
 		{
 			"id": "github",
 			"type": "github",
-			"value": "https://github.com/yysuni",
+			"value": "https://github.com/gzhback",
 			"label": "Github",
 			"order": 3
 		},
 		{
 			"id": "juejin",
-			"type": "juejin",
+			"type": "zhihu",
 			"value": "https://juejin.cn/user/2427311675422382",
-			"label": "稀土掘金",
+			"label": "知乎",
 			"order": 2
 		},
 		{
 			"id": "email",
 			"type": "email",
-			"value": "yysuni1001@gmail.com",
+			"value": "imsb@xktaxi.com",
 			"label": "",
 			"order": 1
+		},
+		{
+			"id": "button-1775909334598",
+			"type": "bilibili",
+			"value": "https://space.bilibili.com/1247861139",
+			"label": "Bilibili",
+			"order": 4
 		}
 	],
 	"clockShowSeconds": false,
