@@ -1,3 +1,5 @@
+# 此项目来自于[YYSUNI](https://www.yysuni.com/blog)
+
 # 2025 Blog
 
 > 最新引导说明：https://www.yysuni.com/blog/readme
@@ -53,7 +55,6 @@ export const GITHUB_CONFIG = {
 
 ![](https://www.yysuni.com/blogs/readme/aa002e6805ab2d65.png)
 
-
 ### 创建密钥
 
 创建好 Github App 后会提示必须创建一个 **Private Key**，直接创建，会自动下载（不见了也不要紧，后面自己再创建再下载就行）。页面上有个 **App ID** 需要复制一下
@@ -73,9 +74,10 @@ export const GITHUB_CONFIG = {
 ![](https://www.yysuni.com/blogs/readme/c5a049d737848abf.png)
 
 设置完成后，需要手动再部署一次，让环境变量生效。
+
 * 可以直接 push 一次仓库代码会触发部署
 * 也可以手动选择创建一次部署
-![](https://www.yysuni.com/blogs/readme/59a802ed8d1c3a13.png)
+  ![](https://www.yysuni.com/blogs/readme/59a802ed8d1c3a13.png)
 
 ## 4. 完成
 
@@ -108,6 +110,7 @@ export const GITHUB_CONFIG = {
 ### 8.1 移除 Liquid Grass
 
 进入 `src/layout/index.tsx` 文件，删除两行代码，然后提交代码到你的 github
+
 ```tsx
 const LiquidGrass = dynamic(() => import('@/components/liquid-grass'), { ssr: false })
 // 中间省略...
@@ -133,13 +136,13 @@ const LiquidGrass = dynamic(() => import('@/components/liquid-grass'), { ssr: fa
 对于完全不是**程序员**的用户，确实会对于更新代码后，如何同步，如何**合并代码**手足无措。我创建了一个 **QQ群**（加群会简单点），或者 vx 群还是 tg 群会好一点可以 issue 里面说下就行。
 
 QQ 群：[https://qm.qq.com/q/spdpenr4k2](https://qm.qq.com/q/spdpenr4k2)
+
 > 不好意思，之前的那个qq群ID（1021438316），不知道为啥搜不到😂
 
 微信群：刚建好了一个微信群，没有 qq 的可以用这个微信群
 ![](https://www.yysuni.com/blogs/readme/343f2c62035b8e23.webp)
 
 tg 群：1月1号，才创建的 tg 群 https://t.me/public_blog_2025
-
 
 应该主要是我自己亲自帮助你们遇到问题怎么办。（后续看看有没有好心人）
 
